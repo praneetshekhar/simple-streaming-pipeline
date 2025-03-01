@@ -17,4 +17,7 @@ I have chosen to run the kafka server and postgres inside the container, while s
 6. `python kafka_producer.py`  
 7. In a different terminal, `python spark_consumer.py`  
 8. We can then use this data from postgres downstream, for example a Tableau dashboard.  
+  
+
+The Producer streams dummy data, however, there is commented code provided which can be used to get data from the Alpha Vantage API.  
 
